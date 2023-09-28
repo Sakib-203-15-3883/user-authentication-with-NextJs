@@ -46,8 +46,13 @@ export default function ProfilePage() {
             <div className="w-full md:w-1/2 p-4">
               <Image
                 src="/images/image1.jpg"
+                width={500}
+                height={500}
                 alt="Left Image"
                 className="w-half h-auto rounded-lg"
+               
+
+
               />
             </div>
             <div className="w-full md:w-1/2 p-4">
