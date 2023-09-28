@@ -1,7 +1,9 @@
 
-
+import SignupPage from "@/app/signup/page"
 export default function Home() {
   return (
-   <div>hello</div>
+   <div>
+    <SignupPage/>
+   </div>
   )
 }
