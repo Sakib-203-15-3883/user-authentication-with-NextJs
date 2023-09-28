@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
+import Image from 'next/image';
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -43,7 +44,7 @@ export default function ProfilePage() {
           <div className="container mx-auto flex flex-wrap">
             {/* First section */}
             <div className="w-full md:w-1/2 p-4">
-              <img
+              <Image
                 src="/images/image1.jpg"
                 alt="Left Image"
                 className="w-half h-auto rounded-lg"
@@ -67,7 +68,7 @@ export default function ProfilePage() {
             </div>
 
             <div className="w-half md:w-1/2 p-4 order-first md:order-last">
-              <img
+              <Image
                 src=" /images/image1.jpg"
                 alt="Right Image"
                 className="w-half h-auto rounded-lg"

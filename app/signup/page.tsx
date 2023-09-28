@@ -12,7 +12,7 @@ import React, { useEffect } from "react";
 // useRouter is a hook that provides access to the Next.js router object, allowing you to work with routing information and navigate between pages programmatically.
 
 // Common use cases for useRouter include:
-// Accessing the current route's pathname, query parameters, and route-related information.
+// Accessing the current routes pathname, query parameters, and route-related information.
 // Programmatically navigating to a different page using methods like push, replace, and back.
 
 import { useRouter } from "next/navigation";
